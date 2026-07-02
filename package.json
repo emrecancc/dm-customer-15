@@ -1,11 +1,13 @@
 {
   "name": "dm-customer-15",
   "version": "1.0.0",
-  "main": "src/main.jsx",
+  "main": "src/index.js",
   "scripts": {
-    "build": "cp src/index.jsx src/main.jsx",
-    "start": "npm run build && node src/main.jsx"
+    "test": "jest"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
