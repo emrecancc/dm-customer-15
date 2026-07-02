@@ -12,6 +12,8 @@
   "devDependencies": {
     "mongoose": "*",
     "pdf-parse": "*",
-    "pyyaml": "*"
+    "pyyaml": "*",
+    "orjson": "*",
+    "matplotlib": "*"
   }
 }
