@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "sqlite3": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "*"
   }
 }
