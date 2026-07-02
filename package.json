@@ -2,16 +2,10 @@
   "name": "node-realtime",
   "version": "1.0.0",
   "dependencies": {
-    "react": "*",
-    "@types/react": "*"
+    "react-query": "latest"
   },
-  "peerDependencies": {},
   "scripts": {
     "test": "jest",
-    "build": "tsc",
-    "start": "node dist/index.js"
-  },
-  "devDependencies": {
-    "react-dom": "*"
+    "start": "node index.js"
   }
 }
