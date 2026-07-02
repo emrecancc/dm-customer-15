@@ -9,9 +9,5 @@
     "start": "node dist/index.js",
     "build": "tsc"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "python-socketio": "*",
-    "http2": "*"
-  }
+  "dependencies": {}
 }
