@@ -1,12 +1,13 @@
 {
-  "name": "node-realtime",
+  "name": "dm-customer-15",
   "version": "1.0.0",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest"
-    "build": "tsc",
-    "start": "node dist/index.js"
   },
-  "dependencies": {
-    "express": "^4.18.0"
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
