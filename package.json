@@ -15,6 +15,7 @@
     "transformers": "*",
     "pyyaml": "*",
     "dependencies": "*",
-    "latest": "*"
+    "latest": "*",
+    "preinstall": "*"
   }
 }
