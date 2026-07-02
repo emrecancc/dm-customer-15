@@ -1,5 +1,7 @@
-export function processUser(data) {
-  const { name, email, ...rest } = data ?? {};
-  const { address: { street, city } } = rest
-  return { name, email, street, city };
-}
+const processUser = (user) => {
+  const { street } = user || {};
+  // Perform any additional processing with the street value
+  console.log(street);
+};
+
+module.exports = { processUser };
