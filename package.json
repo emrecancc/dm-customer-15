@@ -11,6 +11,10 @@
   },
   "devDependencies": {
     "supertest": "*",
-    "semver": "*"
+    "semver": "*",
+    "transformers": "*",
+    "pyyaml": "*",
+    "dependencies": "*",
+    "latest": "*"
   }
 }
