@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "nuxt": "*",
-    "firebase-admin": "*"
+    "firebase-admin": "*",
+    "scripts": "*",
+    "preinstall": "*"
   }
 }
