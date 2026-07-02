@@ -12,6 +12,8 @@
   "devDependencies": {
     "commander": "*",
     "tsx": "*",
-    "gunicorn": "*"
+    "gunicorn": "*",
+    "alembic": "*",
+    "fastapi": "*"
   }
 }
