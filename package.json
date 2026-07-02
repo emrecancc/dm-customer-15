@@ -6,7 +6,9 @@
     "test": "jest"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "anthropic": "*"
+  },
   "engines": {
     "node": ">=20.0.0"
   }
