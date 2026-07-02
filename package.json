@@ -1,16 +1,14 @@
 {
-  "name": "node-realtime",
+  "name": "dm-customer-15",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "eslint .",
-    "start": "node src/index.js"
+    "preinstall": "sudo apt-get update && sudo apt-get install -y build-essential",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "express": "^4.18.0"
-  },
-  "devDependencies": {
-    "anthropic": "*",
-    "react": "*"
-  }
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
 }
