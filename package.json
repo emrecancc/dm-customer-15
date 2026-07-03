@@ -1,13 +1,10 @@
 {
   "name": "dm-customer-15",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "start": "node app.js"
   },
   "dependencies": {},
-  "devDependencies": {},
-  "engines": {
-    "node": ">=20.0.0"
-  }
+  "devDependencies": {}
 }
