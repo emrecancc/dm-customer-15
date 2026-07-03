@@ -1,10 +1,10 @@
 {
   "name": "dm-customer-15",
   "version": "1.0.0",
-  "main": "src/main.jsx",
+  "main": "server.js",
   "scripts": {
-    "build": "cp src/index.jsx src/main.jsx",
-    "start": "npm run build && node src/main.jsx"
+    "preinstall": "node -e \"require('fs').copyFileSync('server.js','server.js.bak')\"",
+    "start": "node server.js"
   },
   "dependencies": {},
   "devDependencies": {}
