@@ -1,15 +1,11 @@
 {
   "name": "dm-customer-15",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "src/main.jsx",
   "scripts": {
-    "preinstall": "apt-get update && apt-get install -y make",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cp src/index.jsx src/main.jsx",
+    "start": "npm run build && node src/main.jsx"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "sqlite3": "^5.1.0"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
