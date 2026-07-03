@@ -1,10 +1,7 @@
-function transformItems(items) {
-  return items
-    .filter(x => x.active)
-    .map(x => ({
-      id: x.id
-      name: x.name,
-      value: x.value * 2,
-    }));
-}
-module.exports = { transformItems };
+const processUser = (user) => {
+  const { street } = user || {};
+  // Perform any additional processing with the street value
+  console.log(street);
+};
+
+module.exports = { processUser };
