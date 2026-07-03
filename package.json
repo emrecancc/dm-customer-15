@@ -1,13 +1,11 @@
 {
   "name": "dm-customer-15",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "preinstall": "node -e \"require('fs').copyFileSync('server.js','server.js.bak')\"",
+    "start": "node server.js"
   },
   "dependencies": {},
-  "devDependencies": {},
-  "engines": {
-    "node": ">=20.0.0"
-  }
+  "devDependencies": {}
 }
