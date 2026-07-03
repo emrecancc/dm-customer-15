@@ -1,9 +1,12 @@
 {
-  "name": "dm-customer-15",
+  "name": "node-realtime",
   "version": "1.0.0",
+  "dependencies": {
+    "react": "^18.0.0"
+  },
   "scripts": {
-    "build": "mkdir -p  && echo 'console.log(\"ok\")' > /home/runner/work/node-realtime/app.jss",
-    "start": "node /home/runner/work/node-realtime/app.jss",
-    "test": "echo ok"
+    "test": "echo ok",
+    "build": "echo ok",
+    "start": "node index.js"
   }
 }
