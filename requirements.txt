@@ -1,1 +1,1 @@
-beanie
+httpx[http2]
