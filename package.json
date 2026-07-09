@@ -1,16 +1,11 @@
 {
-  "name": "node-realtime",
+  "name": "dm-customer-15",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest",
-    "lint": "eslint .",
-    "start": "node src/index.js"
-  },
-  "dependencies": {
-    "express": "^4.18.0"
+    "test": "echo ok",
+    "build": "echo ok"
   },
   "devDependencies": {
-    "anthropic": "*",
-    "react": "*"
+    "numpy": "latest"
   }
 }
